@@ -2,14 +2,11 @@
 pkgname=FORBID_UNWANTED_PACKAGES
 pkgver=1.0
 pkgrel=1
-pkgdesc="Forbid installation of unwanted packages"
+pkgdesc="Forbids installation of unwanted packages"
 arch=(any)
 license=('MIT')
-url="http://github.com/alesguzik/archlinux-forbid-packages"
-depends=()
+url="https://github.com/alesguzik/archlinux-forbid-unwanted-packages"
 conflicts=(libgnome-keyring gnome-keyring gksu)
-#source=()
-#md5sums=()
 
 package() {
   true
